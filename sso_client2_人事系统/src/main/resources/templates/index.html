@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>人事系统</title>
+</head>
+<body>
+欢迎：&nbsp;&nbsp;<font th:text="${session._const_cas_assertion_.principal.name}"></font>&nbsp;&nbsp;进入人事系统！
+<a href ="https://192.168.150.128:8443/cas/logout?service=https://192.168.150.128:8443/cas/login">退出</a>
+</body>
+</html>
+
